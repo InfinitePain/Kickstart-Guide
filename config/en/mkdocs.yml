@@ -1,0 +1,107 @@
+site_name: Kickstart-Guide
+docs_dir: ../../src/en
+site_dir: ../../site/en
+site_url: https://infinitepain.github.io/Kickstart-Guide/
+copyright: Copyright &copy; 2024 Ahmet Emirhan Göktaş
+repo_name: GitHub
+repo_url: https://github.com/InfinitePain/Kickstart-Guide
+edit_uri: blob/main/src/
+
+nav:
+  - Home: index.md
+  - Guides:
+      - Git:
+          - guides/git/index.md
+          - Install: guides/git/install.md
+          - Basics: guides/git/basics.md
+          - Git-Flow: guides/git/gitflow.md
+          - References: guides/git/references.md
+  - About: about.md
+
+plugins:
+  - search
+  - with-pdf:
+      author: Ahmet Emirhan Göktaş
+      copyright: Copyright &copy; 2024 Ahmet Emirhan Göktaş
+      cover: true
+      back_cover: true
+      cover_title: Kickstart-Guide
+      cover_subtitle: A quick reference guide for developers
+      enabled_if_env: ENABLE_PDF_EXPORT
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+  - git-authors
+
+theme:
+  name: material
+  custom_dir: ../../overrides
+  language: en
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  features:
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.view
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - navigation.footer
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_lang_class: true
+      line_spans: __span
+      linenums: false
+      linenums_style: pymdownx-inline
+      anchor_linenums: true
+      auto_title: false
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - abbr
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
+
+hooks:
+  - ../../pdf_event_hook/__init__.py
