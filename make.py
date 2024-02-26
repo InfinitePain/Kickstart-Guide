@@ -21,7 +21,6 @@ def generate_index_html(languages, default_language):
     <meta charset="UTF-8">
     <title>Redirecting...</title>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {{
             // List of available languages
             var availableLanguages = {available_languages}; // Dynamically populated
             var defaultLanguage = '{default_language}'; // Dynamically set
@@ -46,7 +45,6 @@ def generate_index_html(languages, default_language):
 
             // Redirect to the matched language version of the site
             window.location.href = newPath;
-        }});
     </script>
 </head>
 <body>
