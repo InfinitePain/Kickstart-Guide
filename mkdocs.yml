@@ -1,10 +1,10 @@
-site_name: Kickstart-Guide-test
+site_name: Kickstart-Guide
 docs_dir: docs
 site_dir: site
-site_url: https://infinitepain.github.io/Kickstart-Guide-test/
+site_url: https://infinitepain.github.io/Kickstart-Guide/
 copyright: Copyright &copy; 2024 Ahmet Emirhan Göktaş
-repo_name: InfinitePain/Kickstart-Guide-test
-repo_url: https://github.com/InfinitePain/Kickstart-Guide-test
+repo_name: InfinitePain/Kickstart-Guide
+repo_url: https://github.com/InfinitePain/Kickstart-Guide
 edit_uri: blob/main/docs/
 
 plugins:
