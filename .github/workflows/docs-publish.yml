@@ -1,0 +1,84 @@
+name: Build and Deploy MkDocs Site
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches:
+      - main
+      - dev
+    tags: [ 'v*.*.*' ]
+    paths:
+      - 'docs/**'
+      - 'mkdocs-config/**'
+      - 'mkdocs.yml'
+
+  # Allows to run this workflow manually
+  workflow_dispatch:
+
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: '0'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: echo "cache_id=${{github.sha}}" >> $GITHUB_ENV
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-cache-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-cache-
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs 
+          pip install mkdocs-git-authors-plugin
+          pip install mkdocs-git-revision-date-localized-plugin
+          pip install mkdocs-material
+          pip install pymdown-extensions
+          pip install livereload
+          pip install qrcode
+          pip install mkdocs-mermaid2-plugin
+          pip install mkdocs-static-i18n[material]
+          pip install mkdocs-literate-nav
+          pip install mike
+      - name: Clone mkdocs-to-pdf fork
+        run: |
+          git clone https://github.com/domWalters/mkdocs-to-pdf.git
+          pip install -e mkdocs-to-pdf/
+      - name: Set Git config
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+      - name: Sync gh-pages
+        run: |
+          git fetch origin gh-pages
+          git checkout gh-pages
+          git pull origin gh-pages
+      - name: Docs Deploy for Tags
+        if: github.ref != 'refs/heads/main' && github.ref != 'refs/heads/dev'
+        run: |
+          git checkout main --
+          ENABLE_PDF_EXPORT=1 mike deploy --update --push ${{github.ref_name}} latest
+      - name: Docs Deploy for Main
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git checkout main --
+          ENABLE_PDF_EXPORT=1 mike deploy --update --push ${{ github.ref_name }} 
+      - name: Docs Deploy for Dev
+        if: github.ref == 'refs/heads/dev'
+        run: |
+          git fetch origin dev
+          git checkout dev --
+          git pull origin dev
+          ENABLE_PDF_EXPORT=1 mike deploy --update --push ${{ github.ref_name }}

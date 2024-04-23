@@ -23,7 +23,10 @@ RUN python3 -m pip install --upgrade \
     pymdown-extensions \
     livereload \
     qrcode \
-    mkdocs-mermaid2-plugin
+    mkdocs-mermaid2-plugin \
+    mkdocs-static-i18n[material] \
+    mkdocs-literate-nav \
+    mike
 
 # Install domWalters/mkdocs-to-pdf
 # Patched to add some bugfixes

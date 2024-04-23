@@ -25,7 +25,8 @@
 				"ms-python.pylint",
 				"ms-python.python",
 				"ms-python.debugpy",
-				"redhat.vscode-yaml"
+				"redhat.vscode-yaml",
+				"oderwat.indent-rainbow"
 			]
 		},
 		"settings": {
