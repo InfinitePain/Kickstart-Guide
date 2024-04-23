@@ -1,22 +1,11 @@
-site_name: Kickstart-Guide
-docs_dir: ../../src/en
-site_dir: ../../site/en
-site_url: https://infinitepain.github.io/Kickstart-Guide/
+site_name: Kickstart-Guide-test
+docs_dir: docs
+site_dir: site
+site_url: https://infinitepain.github.io/Kickstart-Guide-test/
 copyright: Copyright &copy; 2024 Ahmet Emirhan Göktaş
-repo_name: GitHub
-repo_url: https://github.com/InfinitePain/Kickstart-Guide
-edit_uri: blob/main/src/
-
-nav:
-  - Home: index.md
-  - Guides:
-      - Git:
-          - guides/git/index.md
-          - Install: guides/git/install.md
-          - Basics: guides/git/basics.md
-          - Git-Flow: guides/git/gitflow.md
-          - References: guides/git/references.md
-  - About: about.md
+repo_name: InfinitePain/Kickstart-Guide-test
+repo_url: https://github.com/InfinitePain/Kickstart-Guide-test
+edit_uri: blob/main/docs/
 
 plugins:
   - search
@@ -28,33 +17,43 @@ plugins:
       cover_title: Kickstart-Guide
       cover_subtitle: A quick reference guide for developers
       enabled_if_env: ENABLE_PDF_EXPORT
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
   - git-authors
+  - literate-nav:
+      nav_file: NAV.md
+      tab_length: 2
 
 theme:
   name: material
-  custom_dir: ../../overrides
+  custom_dir: mkdocs-config/overrides
   language: en
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
-        name: Switch to light mode
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
 
   features:
     - navigation.instant.progress
@@ -93,15 +92,19 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - abbr
+  - toc:
+      permalink: true
 
 extra:
   alternate:
     - name: English
-      link: /en/
+      link: ./
       lang: en
     - name: Deutsch
-      link: /de/
+      link: ./de/
       lang: de
-
-hooks:
-  - ../../pdf_event_hook/__init__.py
+  version:
+    provider: mike
+    default:
+      - main
+      - dev

@@ -44,7 +44,7 @@ git merge --no-ff feature-my-feature
 git branch -d feature-my-feature
 ```
 
-???+ Tipp
+???+ Tip
     Der letzte Befehl ist optional, aber empfohlen. Er löscht den `feature-my-feature`-Branch, nachdem er in den `develop`-Branch gemerged wurde. Keine Sorge, die Änderungen sind immer noch im `develop`-Branch. Wir möchten nur unsere Branches sauber halten.
 
 ### Eine Veröffentlichung erstellen/beenden
@@ -81,7 +81,7 @@ git merge --no-ff release-1.0
 git branch -d release-1.0
 ```
 
-???+ Tipp
+???+ Tip
     Der letzte Befehl ist optional, aber empfohlen. Er löscht den `release-1.0`-Branch, nachdem er in den `main`-Branch gemerged wurde. Keine Sorge, die Änderungen sind immer noch im `main`-Branch. Wir möchten nur unsere Branches sauber halten.
 
 ### Einen Bug in der Veröffentlichung beheben
@@ -108,5 +108,5 @@ git merge --no-ff hotfix-1.0.1
 git branch -d hotfix-1.0.1
 ```
 
-???+ Tipp
+???+ Tip
     Der letzte Befehl ist optional, aber empfohlen. Er löscht den `hotfix-1.0.1`-Branch, nachdem er in den `main`-Branch gemerged wurde. Keine Sorge, die Änderungen sind immer noch im `main`-Branch. Wir möchten nur unsere Branches sauber halten.

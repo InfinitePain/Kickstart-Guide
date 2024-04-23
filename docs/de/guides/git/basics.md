@@ -16,7 +16,7 @@ Ein Repository zu clonen bedeutet, dass Sie eine Kopie des Repositories auf Ihre
 git clone <repository-url>
 ```
 
-???+ Tipp
+???+ Tip
     Wenn Sie Ihren SSH-Schlüssel zur Authentifizierung verwenden möchten, klonen Sie das Repository mit dem SSH-Pfad. Wenn Sie das Repository bereits mit HTTPS geklont haben, aber SSH zur Authentifizierung verwenden möchten, können Sie die Remote-URL mit dem folgenden Befehl ändern:
 
     ```sh
@@ -43,7 +43,7 @@ Um alle Dateien hinzuzufügen, können Sie den folgenden Befehl ausführen:
 git add .
 ```
 
-???+ Tipp
+???+ Tip
     Wenn Sie eine Datei aus einem Repository löschen, müssen Sie trotzdem `git add` ausführen, sonst wird git sich der Löschung nicht bewusst.
 
 ## Commit
