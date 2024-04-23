@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/dev/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/devde/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/NAV/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/dev/NAV/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/devde/NAV/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/about/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/dev/about/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/devde/about/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/guides/git/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/dev/guides/git/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/devde/guides/git/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/guides/git/basics/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/dev/guides/git/basics/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/devde/guides/git/basics/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/guides/git/gitflow/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/dev/guides/git/gitflow/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/devde/guides/git/gitflow/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/guides/git/install/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/dev/guides/git/install/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/devde/guides/git/install/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/guides/git/references/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/dev/guides/git/references/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/devde/guides/git/references/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/dev"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/NAV/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/NAV/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/devNAV/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/about/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/devabout/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/devguides/git/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git/basics/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git/basics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/devguides/git/basics/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git/gitflow/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git/gitflow/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/devguides/git/gitflow/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git/install/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git/install/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/devguides/git/install/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git/references/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git/references/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://infinitepain.github.io/Kickstart-Guide/devguides/git/references/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git-copy/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git-copy/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git-copy/basics/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git-copy/basics/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git-copy/gitflow/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git-copy/gitflow/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git-copy/install/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git-copy/install/"/>
+    </url>
+    <url>
+        <loc>https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git-copy/references/</loc>
+        <lastmod>2024-04-23</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://infinitepain.github.io/Kickstart-Guide/dev/de/guides/git-copy/references/"/>
+    </url>
+</urlset>
